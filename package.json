@@ -1,0 +1,20 @@
+{
+  "name": "goit-nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon ./index.js localhost 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.2.0",
+    "joi": "^17.6.0",
+    "nodemon": "^2.0.15",
+    "shortid": "^2.2.16"
+  }
+}
