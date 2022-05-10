@@ -15,7 +15,7 @@ const schema = Joi.object({
   phone: Joi.string().required(),
 });
 
-const contactsPath = path.resolve("./db/contacts.json");
+const contactsPath = path.join(__dirname, "./contacts.json");
 const UNICODE = "utf8";
 
 async function listContacts() {
